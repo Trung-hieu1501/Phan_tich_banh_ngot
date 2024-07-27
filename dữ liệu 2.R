@@ -1,4 +1,4 @@
-setwd("D:/Desktop/HUST/2023.1/Phân tích số liệu")
+setwd("D:/Desktop/HUST")
 food <- read.csv("food-texture.csv",row.names = "X")
 str(food)
 food <- scale(food)
